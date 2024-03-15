@@ -101,3 +101,20 @@ print(una_lista)
 # imprimir todos los resultado obtenidos
 
 lista_numeros = [1957, 2038, 5769, 45.98, 38.5, 3789, 2038, 23.09, 6589, 1897, 38.5, 2038]
+
+cant_elementos = len(lista_numeros)
+print("Cantidad de elementos en la lista:", cant_elementos)
+
+lista_numeros.insert(4, 24.9)
+print("Lista después de agregar 24.9 en el índice 4:", lista_numeros)
+
+cant_de_nums = lista_numeros.count(2038)
+print("Cantidad de veces que aparece 2038:", cant_de_nums)
+
+lista_numeros.remove(5769)
+print("Lista después de eliminar 5769:", lista_numeros)
+
+num_mayor = max(lista_numeros)
+num_menor = min(lista_numeros)
+print("Número más grande:", num_mayor)
+print("Número más pequeño:", num_menor)

@@ -1,12 +1,20 @@
 #########################################################################
 # Ejercicio 1: Escriba un programa que pregunte al usuario su edad y muestre
 # por pantalla si es mayor de edad o no (18 años)
-
+""" edad = int(input("ingrese su edad:"))
+if edad>=18:
+    print("sos mayor de edad!")
+else:
+    print("no sos mayor de edad!") """
 #########################################################################
 # Ejercicio 2: Escriba un programa que pida al usuario ingresar un año y 
 # determine si es bisiesto o no. (Ayuda: Un año es bisiesto si es divisible entre 4, 
 # pero no entre 100, o si es divisible entre 400)
-
+""" anio = int(input("ingrese un año : "))
+if anio % 4 == 0 and (anio % 100 != 0 or anio % 400 == 0):
+	print("Es bisiesto")
+else:
+	print("No es bisiesto") """
 ########################################################################
 # Ejercicio 3: Escribir un programa para una empresa que tiene salas de juegos
 # para todas las edades y quiere calcular de forma automática el precio que 
@@ -14,11 +22,25 @@
 # la edad del cliente y mostrar el precio de la entrada. Si el cliente es 
 # menor de 4 años puede entrar gratis, si tiene entre 4 y 18 años debe pagar 
 # $500, y si es mayor de 18 años $1.000
-
+""" edadCkiente = int(input("ingrese la edad para los juegos : "))
+if edadCkiente < 4:
+    print("entras gratis!")
+elif edadCkiente >= 4 and edadCkiente <= 18:
+    print("debes pagar $500 dolares")
+else:
+    print("debes pagar $1000 dolares") """
 #########################################################################
 # Ejercicio 4: Escribe un programa para saber si el número ingresado es de 1 dígito,
 # 2 dígitos, 3 dígitos o más de 3 dígitos
-
+numero = len(int(input("Ingrese un numero : ")))
+if len(numero) == 1:
+    print("numero de 1 digito!")
+elif len(numero) == 2:
+    print("numero de 2 digitos")
+elif len(numero) == 3:
+    print("numero de 3 digitos")
+else:
+    print("numero de mas de 3 digitos")
 ########################################################################
 # Ejercicio 5: Pedir al usuario que ingrese una oración y una letra, 
 # imprimir si la letra se encuentra en la oración y cuántas veces aparece, 

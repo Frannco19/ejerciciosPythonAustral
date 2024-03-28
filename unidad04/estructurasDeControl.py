@@ -142,7 +142,7 @@ else:
 # juguetes con batería, juguetes a cuerda y juguetes de carga eléctrica, respectivamente. 
 # Escriba un programa que lea el código del producto y la cantidad del pedido e 
 # imprima la cantidad neta por la que el cliente debe pagar después del descuento.
-codigo = int(input("Ingrese el codigo : 1) juguetes con bat 2) jugeute a cuerda 3) jugeute carga electrica : "))
+""" codigo = int(input("Ingrese el codigo : 1) juguetes con bat 2) jugeute a cuerda 3) jugeute carga electrica : "))
 cantidad = int(input("Ingrese la cantidad del producto : "))
 
 if codigo == 1:
@@ -161,7 +161,7 @@ elif codigo == 3:
     else:
         print("No tenes descuento por la cant de productos")
 else:
-    print("Error de codigo!")
+    print("Error de codigo!") """
 # Ejercicio: Elabore un script en Python que solcite al usuario el ingreso 
 # una edad, y muestre un mensaje por consola diciendo "La persona es menor de edad."
 # si la edad menor a 18, "La persona es mayor de edad." si la edad 

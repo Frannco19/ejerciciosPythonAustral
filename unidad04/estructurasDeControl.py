@@ -240,4 +240,67 @@ for i in range(10, -1, -1):
         print("!feliz año nuevo!")
 
 """
+# bucle while:
+"""
+Escribir un script de python  que pida al usuario un numero menor a 50,
+y que deje de pedir el ingreso de numero cuando la suma acumulada 
+de los numeros ingresando sea mayor a 100
+"""
+
+''' sum = 0
+
+while sum <=100:
+    numero = float(input("Ingrese un numero menor a 50 :"))
+    if numero > 50:
+        print("ERROR. El numero debe ser menor a 50")
+        continue
+    sum = sum + numero
+    print("La suma acumulada es : ", sum) '''
+    
+"""
+Escribir un script de python que muestre los 20 numeros pares
+que siguen a un numero ingresado por el usuario
+"""
+
+''' number = int(input("Ingrese un numero entero :"))
+
+if number % 2 == 0 or number % 2 == 1:
+    for i in range(number+2,number+42,2):
+        print("Los 20 numeros pares siguentes son : ", i)
+else:
+    print("Numero mal ")   ''' 
+    
+             
+''' number = int(input("Ingrese un numero entero :"))
+
+if (number%2) == 0:
+    for numero in range(number+2, number+41, 2):
+        print(numero)
+else:
+    for numero in range(number+2, number+41, 2):
+        print(numero) '''
+
+''' palabra = str(input("Ingrese una palabra : "))
+count = 0
+text = ""
+while(palabra != "exit"):
+    #print(palabra, "-")
+    text = text + ' ' + palabra
+    count = count + 1
+    palabra = str(input("Ingrese una palabra : "))
+
+print(text)
+print("la cantidad de palabras son :", count) '''
+    
+"""
+Dado una lista de numeros al azar, encuentre la primer aparicion del numero 0,
+e imprimir su posicion en la lista.
+Asegures de detener el ciclo de una vez que se encuentre el numero, 
+pues no hacerlo hará que el programa tarde mucho tiempo en ejecutarse
+"""
+import random
+numbers = [10,45,30,2,1,67,39]
+
+
+
 

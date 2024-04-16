@@ -30,8 +30,17 @@ un string que sea la repetición de txt, n veces, cada uno separado del siguient
 
 Ejemplo: "Hola" 3 "," --> "Hola,Hola,Hola"
 """
-def funcionPalabra(palabra, numero, comas):
-    print()
+
+''' palabra = input("Ingrese una palabra :")
+numero = int(input("Ingrese un numero :"))
+sep = input("Ingrese un sep : ")
+
+def funcionPalabra(palabra, numero, sep):
+    palabrasRep = palabra + sep
+    fraseNueva = palabrasRep * numero
+    return(print(fraseNueva))
+
+funcionPalabra(palabra,numero,sep) '''
 
 """
 Ejercicio 3
@@ -44,6 +53,15 @@ Recordar que los argumentos con valores por defecto van al final, y se escriben 
 Opcional: escriba la función de la forma más simplificada posible
 (que retorne el resultado inmediatamente) y re-escríbala como un lambda
 """
+edad = int(input("Ingrese una edad : "))
+
+def mayoriaEdad(edad):
+    if edad >= 18:
+        return True
+    else: 
+        return False
+
+print(mayoriaEdad(edad))
 
 """
 Ejercicio 4
